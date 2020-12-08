@@ -5,10 +5,10 @@ import {BiUser,RiLockPasswordLine} from "react-icons/all";
 import {NavLink} from "react-router-dom";
 import {setModalSignInIsClosedCreator} from "../../../redux/loginPage-reducer";
 const SignInConsole = (props)=> {
-  /* let signInModal_isOpen=props.signInModalIsOpen;
+   let signInModal_isOpen=props.signInModalIsOpen;
    let closeModalSign_in = ()=>{
        props.dispatch(setModalSignInIsClosedCreator())
-   }*/
+   }
     return(
         <Modal className = "signInConsole_ p-3" isOpen = {signInModal_isOpen} onRequestClose = {closeModalSign_in}>
             <div className="login-form">
