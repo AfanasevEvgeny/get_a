@@ -1,0 +1,15 @@
+.navbar_{
+  background-color: #24366e;
+}
+.navbar_image{
+  image-rendering: pixelated;
+}
+.navbar_font{
+  color:white;
+}
+.navbar_font_active_{
+  color:black;
+}
+.navbar .navbar-nav > a:hover, .navbar .navbar-nav > a:focus {
+  color: black;
+}

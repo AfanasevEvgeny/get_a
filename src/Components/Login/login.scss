@@ -1,0 +1,96 @@
+.fragmentLogin{
+  margin: 0;
+}
+//header of login page
+.header{
+  background-color:#24366e ;
+}
+.header_sized{
+  font-size: 2.3vw;
+}
+.header_buttons-sized{
+  font-size: 1vw;
+}
+.header_logo{
+  width:9vw;
+}
+.header_name{
+  color:#eff2ec;
+}
+.tg_header_icon{
+  color:white;
+}
+.mail_header_icon{
+  color:white;
+}
+.color_white{
+  color:white;
+}
+.auth_header_block{
+  text-align: center;
+
+}
+//adaptate to mobiles
+@media only screen and (max-width: 768px)  {
+  .header_sized{
+    font-size: 6vw;
+  }
+  .header_buttons-sized{
+    font-size: 3vw;
+  }
+  .auth_header_block{
+
+  }
+  .header_logo{
+    width:60px;
+  }
+  .links h2{
+    font-size: 4vw;
+  }
+
+
+}
+//main sector of login page
+.main_sector_login{
+  background-color:#eff2ec;
+  //min-height: 100vh;
+}
+.description_bg_block{
+
+
+}
+.bgblack{
+}
+.login_section_img_holder{
+  background: url("login_images/university_sector_bg_img_login.jpeg") no-repeat center;
+  background-size: cover;
+  //border: 5px solid #24366e ;
+  width:50vw;
+  height:50vh;
+}
+.login_section_img_holder h2{
+  font-size: 2.2vw;
+  color:white;
+}
+.login_section_img_holder p{
+  font-size: 1vw;
+  color:white;
+}
+.divider_{
+  border-right: 1px solid white;
+}
+
+@media only screen and (max-width: 768px)  {
+  .login_section_img_holder{
+    width:100vw;
+    height:25vh;
+  }
+  .login_section_img_holder p{
+    font-size: 2vw;
+  }
+  .login_section_img_holder h2{
+    font-size: 2.6vw;
+    color:white;
+  }
+}
+//accordion_login
